@@ -1,0 +1,66 @@
+{
+	"binomo": {
+		"port": 8082,
+		"demo": true,
+		"sert_file": "curl-ca-bundle.crt",
+		"cookie_file": "binomo.cookie"
+	},
+	"bot": {
+		"named_pipe": "binomo_api_bot",
+		"delay_bets_ms": 0
+	},
+	"quotes": {
+		"path": "C:\\Users\\user\\AppData\\Roaming\\MetaQuotes\\Terminal\\2E8DC23981084565FA3E19C061F586B2\\history\\Weltrade-Live",
+		"symbol_hst_suffix":"-BIN",
+		"max_precisions": 6,
+		"volume_mode":2,
+		"candles": 1440,
+		"symbols": [
+			{
+				"symbol":"ZCRYIDX",
+				"period":60
+			},
+			{
+				"symbol":"BTCUSD",
+				"period":60
+			},
+			{
+				"symbol":"BTCLTC",
+				"period":60
+			},
+			{
+				"symbol":"AUDNZD",
+				"period":60
+			},
+			{
+				"symbol":"GBPNZD",
+				"period":60
+			},
+			{
+				"symbol":"EURNZD",
+				"period":60
+			},
+			{
+				"symbol":"EURCAD(OTC)",
+				"period":60
+			},
+			{
+				"symbol":"EURUSD(OTC)",
+				"period":60
+			}
+		],
+		"use": true
+	},
+	"hotkeys": {
+		"keys":[
+			{
+				"key": "Ff",
+				"symbol": "ZCRYIDX",
+				"amount": 1.0,
+				"duration": 60,
+				"direction": -1
+			}
+		],
+		"use": true
+	}
+}
